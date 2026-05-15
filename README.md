@@ -68,19 +68,6 @@ The project uses database exports and Python-based data cleaning.
 - Python was used to clean, reshape, merge, and construct analysis variables.
 - No HTML scraping was used.
 
-## Repository Structure
-
-ai-earnings-call-turnover-as3/
-├── README.md
-├── data/
-│   ├── earnings_call_ai_dataset.csv
-│   └── turnover_daily_clean_2019_2025.csv
-├── code/
-│   ├── 01_transcript_collection_2021_2025.ipynb
-│   └── 02_data_extension_cleaning_turnover_2019_2025.ipynb
-└── docs/
-    └── data_description.md
-
 ## Code Files
 
 The code folder contains two Jupyter notebooks.
