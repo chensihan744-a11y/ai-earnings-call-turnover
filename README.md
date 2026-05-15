@@ -22,17 +22,20 @@ File path: data/earnings_call_ai_dataset.csv
 
 The main assignment dataset is earnings_call_ai_dataset.csv, which is the firm–earnings-call-level dataset used to construct transcript-based AI discussion measures. Each observation represents one earnings call. The dataset includes firm identifiers, earnings call information, and AI-related text variables.
 
-Main variables include:
+### Main Variables in `earnings_call_ai_dataset.csv`
 
-- ticker: firm ticker
-- companyname: company name
-- transcriptid: transcript identifier
-- keydevid: Capital IQ key development event identifier
-- call_date: earnings call date
-- headline: transcript headline
-- total_sentences: total number of sentences in the transcript
-- ai_sentence_count: number of sentences containing AI-related keywords
-- ai_intensity: AI-related sentence count divided by total sentence count
+| Variable | Description |
+|---|---|
+| `ticker` | Firm ticker |
+| `companyname` | Company name |
+| `transcriptid` | Capital IQ transcript identifier |
+| `keydevid` | Capital IQ key development event identifier |
+| `call_date` | Earnings call date |
+| `headline` | Transcript headline |
+| `total_sentences` | Total number of sentences in the transcript |
+| `ai_sentence_count` | Number of sentences containing AI-related keywords |
+| `ai_intensity` | AI-related sentence count divided by total sentence count |
+| `hype_period` | Period classification used to represent stages of the AI hype cycle |
 
 The original transcript data were collected from Capital IQ through WRDS. The full transcript text file is not uploaded because of file size and data access restrictions. Instead, this repository provides a processed earnings-call-level dataset with AI discussion measures.
 
@@ -44,12 +47,14 @@ The daily turnover dataset is provided as the supporting market-data panel for c
 
 Main variables include:
 
-- ticker: Bloomberg ticker
-- trading_date: trading date
-- PX_VOLUME: daily trading volume
-- EQY_SH_OUT: shares outstanding
-- turnover: daily trading volume divided by shares outstanding
-- turnover_pct: turnover expressed in percentage terms
+| Variable | Description |
+|---|---|
+| `ticker` | Bloomberg ticker identifier |
+| `trading_date` | Trading date |
+| `PX_VOLUME` | Daily trading volume |
+| `EQY_SH_OUT` | Shares outstanding, reported in millions of shares |
+| `turnover` | Daily turnover calculated as trading volume divided by shares outstanding |
+| `turnover_pct` | Daily turnover expressed in percentage terms |
 
 Daily turnover is calculated as:
 
