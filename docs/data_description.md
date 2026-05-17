@@ -139,25 +139,12 @@ The multiplier is used because Bloomberg's `EQY_SH_OUT` field is reported in mil
 
 AI-related discussion is measured using keyword-based text analysis. The keyword list includes terms related to artificial intelligence, generative AI, machine learning, large language models, and major AI-related products or organizations.
 
-Examples of keywords include:
-
-- artificial intelligence
-- generative AI
-- GenAI
-- machine learning
-- large language model
-- large language models
-- LLM
-- LLMs
-- foundation model
-- foundation models
-- ChatGPT
-- GPT
-- OpenAI
-- Copilot
-- Gemini
-- Claude
-- Anthropic
+| Category | Keywords |
+|---|---|
+| General AI Terms | artificial intelligence; AI; machine learning; deep learning; natural language processing |
+| Generative AI Terms | generative AI; GenAI; foundation model; foundation models |
+| Large Language Model Terms | large language model; large language models; LLM; LLMs |
+| AI Products and Organizations | ChatGPT; GPT; OpenAI; Copilot; Gemini; Claude; Anthropic |
 
 The main AI discussion variable is:
 
